@@ -1,0 +1,255 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2016. All Rights Reserved.",
+  "gamePk" : 2016020014,
+  "link" : "/api/v1/game/2016020014/feed/live",
+  "metaData" : {
+    "wait" : 10,
+    "timeStamp" : "20161014_214045"
+  },
+  "gameData" : {
+    "game" : {
+      "pk" : 2016020014,
+      "type" : "R"
+    },
+    "datetime" : {
+      "dateTime" : "2016-10-15T00:00:00Z"
+    },
+    "status" : {
+      "abstractGameState" : "Preview",
+      "codedGameState" : "1",
+      "detailedState" : "Scheduled",
+      "statusCode" : "1"
+    },
+    "teams" : {
+      "away" : {
+        "id" : 16,
+        "name" : "Chicago Blackhawks",
+        "link" : "/api/v1/teams/16",
+        "venue" : {
+          "name" : "United Center",
+          "link" : "/api/v1/venues/null",
+          "city" : "Chicago",
+          "timeZone" : {
+            "id" : "America/Chicago",
+            "offset" : -5,
+            "tz" : "CDT"
+          }
+        },
+        "abbreviation" : "CHI",
+        "triCode" : "CHI",
+        "teamName" : "Blackhawks",
+        "locationName" : "Chicago",
+        "firstYearOfPlay" : "1926",
+        "division" : {
+          "id" : 16,
+          "name" : "Central",
+          "link" : "/api/v1/divisions/16"
+        },
+        "conference" : {
+          "id" : 5,
+          "name" : "Western",
+          "link" : "/api/v1/conferences/5"
+        },
+        "franchise" : {
+          "franchiseId" : 11,
+          "teamName" : "Blackhawks",
+          "link" : "/api/v1/franchises/11"
+        },
+        "shortName" : "Chicago",
+        "officialSiteUrl" : "http://www.chicagoblackhawks.com",
+        "franchiseId" : 11,
+        "active" : true
+      },
+      "home" : {
+        "id" : 18,
+        "name" : "Nashville Predators",
+        "link" : "/api/v1/teams/18",
+        "venue" : {
+          "name" : "Bridgestone Arena",
+          "link" : "/api/v1/venues/null",
+          "city" : "Nashville",
+          "timeZone" : {
+            "id" : "America/Chicago",
+            "offset" : -5,
+            "tz" : "CDT"
+          }
+        },
+        "abbreviation" : "NSH",
+        "triCode" : "NSH",
+        "teamName" : "Predators",
+        "locationName" : "Nashville",
+        "firstYearOfPlay" : "1997",
+        "division" : {
+          "id" : 16,
+          "name" : "Central",
+          "link" : "/api/v1/divisions/16"
+        },
+        "conference" : {
+          "id" : 5,
+          "name" : "Western",
+          "link" : "/api/v1/conferences/5"
+        },
+        "franchise" : {
+          "franchiseId" : 34,
+          "teamName" : "Predators",
+          "link" : "/api/v1/franchises/34"
+        },
+        "shortName" : "Nashville",
+        "officialSiteUrl" : "http://www.nashvillepredators.com",
+        "franchiseId" : 34,
+        "active" : true
+      }
+    },
+    "players" : { },
+    "venue" : {
+      "name" : "Bridgestone Arena",
+      "link" : "/api/v1/venues/null"
+    }
+  },
+  "liveData" : {
+    "plays" : {
+      "allPlays" : [ ],
+      "scoringPlays" : [ ],
+      "penaltyPlays" : [ ],
+      "playsByPeriod" : [ ]
+    },
+    "linescore" : {
+      "currentPeriod" : 0,
+      "periods" : [ ],
+      "shootoutInfo" : {
+        "away" : {
+          "scores" : 0,
+          "attempts" : 0
+        },
+        "home" : {
+          "scores" : 0,
+          "attempts" : 0
+        }
+      },
+      "teams" : {
+        "home" : {
+          "team" : {
+            "id" : 18,
+            "name" : "Nashville Predators",
+            "link" : "/api/v1/teams/18",
+            "abbreviation" : "NSH",
+            "triCode" : "NSH"
+          },
+          "goals" : 0,
+          "shotsOnGoal" : 0,
+          "goaliePulled" : false,
+          "numSkaters" : 0,
+          "powerPlay" : false
+        },
+        "away" : {
+          "team" : {
+            "id" : 16,
+            "name" : "Chicago Blackhawks",
+            "link" : "/api/v1/teams/16",
+            "abbreviation" : "CHI",
+            "triCode" : "CHI"
+          },
+          "goals" : 0,
+          "shotsOnGoal" : 0,
+          "goaliePulled" : false,
+          "numSkaters" : 0,
+          "powerPlay" : false
+        }
+      },
+      "powerPlayStrength" : "Even",
+      "hasShootout" : false
+    },
+    "boxscore" : {
+      "teams" : {
+        "away" : {
+          "team" : {
+            "id" : 16,
+            "name" : "Chicago Blackhawks",
+            "link" : "/api/v1/teams/16",
+            "abbreviation" : "CHI",
+            "triCode" : "CHI"
+          },
+          "teamStats" : {
+            "teamSkaterStats" : {
+              "goals" : 0,
+              "pim" : 0,
+              "shots" : 0,
+              "powerPlayPercentage" : "0.0",
+              "powerPlayGoals" : 0.0,
+              "powerPlayOpportunities" : 0.0,
+              "faceOffWinPercentage" : "0.0",
+              "blocked" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "hits" : 0
+            }
+          },
+          "players" : { },
+          "goalies" : [ ],
+          "skaters" : [ ],
+          "onIce" : [ ],
+          "onIcePlus" : [ ],
+          "scratches" : [ ],
+          "penaltyBox" : [ ],
+          "coaches" : [ {
+            "person" : {
+              "fullName" : "Joel Quenneville",
+              "link" : "/api/v1/people/null"
+            },
+            "position" : {
+              "code" : "HC",
+              "name" : "Head Coach",
+              "type" : "Coach",
+              "abbreviation" : "Head Coach"
+            }
+          } ]
+        },
+        "home" : {
+          "team" : {
+            "id" : 18,
+            "name" : "Nashville Predators",
+            "link" : "/api/v1/teams/18",
+            "abbreviation" : "NSH",
+            "triCode" : "NSH"
+          },
+          "teamStats" : {
+            "teamSkaterStats" : {
+              "goals" : 0,
+              "pim" : 0,
+              "shots" : 0,
+              "powerPlayPercentage" : "0.0",
+              "powerPlayGoals" : 0.0,
+              "powerPlayOpportunities" : 0.0,
+              "faceOffWinPercentage" : "0.0",
+              "blocked" : 0,
+              "takeaways" : 0,
+              "giveaways" : 0,
+              "hits" : 0
+            }
+          },
+          "players" : { },
+          "goalies" : [ ],
+          "skaters" : [ ],
+          "onIce" : [ ],
+          "onIcePlus" : [ ],
+          "scratches" : [ ],
+          "penaltyBox" : [ ],
+          "coaches" : [ {
+            "person" : {
+              "fullName" : "Peter Laviolette",
+              "link" : "/api/v1/people/null"
+            },
+            "position" : {
+              "code" : "HC",
+              "name" : "Head Coach",
+              "type" : "Coach",
+              "abbreviation" : "Head Coach"
+            }
+          } ]
+        }
+      },
+      "officials" : [ ]
+    },
+    "decisions" : { }
+  }
+}

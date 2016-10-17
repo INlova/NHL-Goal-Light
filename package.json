@@ -1,0 +1,31 @@
+{
+  "name": "nhl-goal-light",
+  "version": "1.0.0",
+  "description": "nhl goal light celebration with smart home devices",
+  "main": "nhl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-ryan-k/NHL-Goal-Light.git"
+  },
+  "keywords": [
+    "nhl",
+    "philips",
+    "hue"
+  ],
+  "author": "ryan.k@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-ryan-k/NHL-Goal-Light/issues"
+  },
+  "homepage": "https://github.com/c-ryan-k/NHL-Goal-Light#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "node-hue-api": "^2.3.0",
+    "python-shell": "^0.4.0",
+    "sleep": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}

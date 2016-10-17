@@ -1,0 +1,50 @@
+{
+  "lights": [
+    {
+      "id": "1",
+      "state": {
+        "on": true,
+        "bri": 14,
+        "hue": 30567,
+        "sat": 254,
+        "effect": "colorloop",
+        "xy": [
+          0.199,
+          0.6005
+        ],
+        "alert": "none",
+        "colormode": "hs",
+        "reachable": true
+      },
+      "type": "Color light",
+      "name": "LivingColors 1",
+      "modelid": "LLC011",
+      "manufacturername": "Philips",
+      "uniqueid": "00:17:88:01:00:c2:87:5d-0b",
+      "swversion": "66013452"
+    },
+    {
+      "id": "2",
+      "state": {
+        "on": true,
+        "bri": 14,
+        "hue": 29157,
+        "sat": 254,
+        "effect": "colorloop",
+        "xy": [
+          0.2045,
+          0.6382
+        ],
+        "alert": "none",
+        "colormode": "hs",
+        "reachable": true
+      },
+      "type": "Color light",
+      "name": "LivingColors 2",
+      "modelid": "LLC011",
+      "manufacturername": "Philips",
+      "uniqueid": "00:17:88:01:00:c2:89:af-0b",
+      "swversion": "66013452"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2016. All Rights Reserved.",
+  "totalItems" : 3,
+  "totalEvents" : 0,
+  "totalGames" : 3,
+  "dates" : [ {
+    "date" : "2016-10-14",
+    "totalItems" : 3,
+    "totalEvents" : 0,
+    "totalGames" : 3,
+    "games" : [ {
+      "gamePk" : 2016020014,
+      "link" : "/api/v1/game/2016020014/feed/live",
+      "gameType" : "R",
+      "season" : "20162017",
+      "gameDate" : "2016-10-15T00:00:00Z",
+      "status" : {
+        "abstractGameState" : "Preview",
+        "codedGameState" : "1",
+        "detailedState" : "Scheduled",
+        "statusCode" : "1"
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 0,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 16,
+            "name" : "Chicago Blackhawks",
+            "link" : "/api/v1/teams/16",
+            "triCode" : "CHI"
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 0,
+            "losses" : 0,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 18,
+            "name" : "Nashville Predators",
+            "link" : "/api/v1/teams/18",
+            "triCode" : "NSH"
+          }
+        }
+      },
+      "venue" : {
+        "name" : "Bridgestone Arena",
+        "link" : "/api/v1/venues/null"
+      },
+      "content" : {
+        "link" : "/api/v1/game/2016020014/content"
+      }
+    }, {
+      "gamePk" : 2016020015,
+      "link" : "/api/v1/game/2016020015/feed/live",
+      "gameType" : "R",
+      "season" : "20162017",
+      "gameDate" : "2016-10-15T01:00:00Z",
+      "status" : {
+        "abstractGameState" : "Preview",
+        "codedGameState" : "1",
+        "detailedState" : "Scheduled",
+        "statusCode" : "1"
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 1,
+            "losses" : 0,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 22,
+            "name" : "Edmonton Oilers",
+            "link" : "/api/v1/teams/22",
+            "triCode" : "EDM"
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 0,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 20,
+            "name" : "Calgary Flames",
+            "link" : "/api/v1/teams/20",
+            "triCode" : "CGY"
+          }
+        }
+      },
+      "venue" : {
+        "name" : "Scotiabank Saddledome",
+        "link" : "/api/v1/venues/null"
+      },
+      "content" : {
+        "link" : "/api/v1/game/2016020015/content"
+      }
+    }, {
+      "gamePk" : 2016020016,
+      "link" : "/api/v1/game/2016020016/feed/live",
+      "gameType" : "R",
+      "season" : "20162017",
+      "gameDate" : "2016-10-15T02:30:00Z",
+      "status" : {
+        "abstractGameState" : "Preview",
+        "codedGameState" : "1",
+        "detailedState" : "Scheduled",
+        "statusCode" : "1"
+      },
+      "teams" : {
+        "away" : {
+          "leagueRecord" : {
+            "wins" : 0,
+            "losses" : 0,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 4,
+            "name" : "Philadelphia Flyers",
+            "link" : "/api/v1/teams/4",
+            "triCode" : "PHI"
+          }
+        },
+        "home" : {
+          "leagueRecord" : {
+            "wins" : 0,
+            "losses" : 1,
+            "ot" : 0,
+            "type" : "league"
+          },
+          "score" : 0,
+          "team" : {
+            "id" : 26,
+            "name" : "Los Angeles Kings",
+            "link" : "/api/v1/teams/26",
+            "triCode" : "LAK"
+          }
+        }
+      },
+      "venue" : {
+        "name" : "STAPLES Center",
+        "link" : "/api/v1/venues/null"
+      },
+      "content" : {
+        "link" : "/api/v1/game/2016020016/content"
+      }
+    } ],
+    "events" : [ ]
+  } ]
+}
